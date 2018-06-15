@@ -24,3 +24,15 @@
 - Dotenv
 - Rspec
 - Capybara
+
+## How to run this app
+- Clone the app
+- Set up the .env file, like the .env_example
+
+```sh
+  rake db:setup
+```
+
+```sh
+  rake db:migrate
+```

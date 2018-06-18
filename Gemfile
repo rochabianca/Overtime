@@ -18,6 +18,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara', '>= 2.15', '< 4.0'
   gem 'database_cleaner'
+  gem 'faker', '~> 1.6', '>= 1.6.6'
 end
 
 group :development do

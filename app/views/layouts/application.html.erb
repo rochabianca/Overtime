@@ -4,12 +4,13 @@
     <title>Overtime</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <%= render 'shared/imports' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <%= render 'shared/navbar'%>
     <%= yield %>
   </body>
 </html>

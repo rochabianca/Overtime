@@ -1,0 +1,23 @@
+<% if current_user %>
+<div class="grid">
+  <nav class="navbar">
+    <div class="flex flex__align--center">
+      <div class="navbar__brand">Overtime</div>
+      <div class="navbar__menu">
+        <%= link_to "Home", root_path %>
+        <%= link_to "Time Entries", posts_path %>
+      </div>
+    </div>
+
+    <div>
+      <a href="#" class="navbar__dropdown"><%= current_user.first_name %> <i class="ion-ios-arrow-down"></i></a>
+      <div class="display__none">
+        <a href="#">Link 1</a>
+        <%= link_to "Edit Details", edit_user_registration_path %>
+        <%= link_to "Log Out", destroy_user_session_path, method: :delete %>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+  </nav>
+</div>
+<% end %>

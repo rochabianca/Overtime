@@ -1,0 +1,39 @@
+@import 'variables';
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(-45deg, $purple, $dark-purple);
+  padding: 10px 20px;
+  font-size: 16px;
+  a {
+    color: $white;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+
+.navbar__brand {
+  font-size: 24px;
+  color: $yellow;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+
+.navbar__menu {
+  a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.navbar__dropdown {
+  i {
+    margin-left: 5px;
+  }
+}

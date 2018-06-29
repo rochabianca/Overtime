@@ -4,8 +4,8 @@
     <div class="flex flex__align--center">
       <div class="navbar__brand">Overtime</div>
       <div class="navbar__menu">
-        <%= link_to "Home", root_path %>
-        <%= link_to "Time Entries", posts_path %>
+        <%= link_to "Home", root_path, class: active?(root_path) %>
+        <%= link_to "Time Entries", posts_path, class: active?(posts_path) %>
       </div>
     </div>
 

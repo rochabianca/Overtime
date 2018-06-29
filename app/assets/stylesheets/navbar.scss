@@ -27,8 +27,12 @@
 
 .navbar__menu {
   a {
-    margin-right: 10px;
-    margin-left: 10px;
+    padding: 15px 20px;
+
+    &.active {
+      background: $white;
+      color: $dark-purple;
+    }
   }
 }
 

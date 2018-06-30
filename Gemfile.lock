@@ -89,6 +89,11 @@ GEM
       railties (>= 3.2, < 6.0)
     erubi (1.7.1)
     execjs (2.7.0)
+    factory_bot (4.10.0)
+      activesupport (>= 3.0.0)
+    factory_bot_rails (4.10.0)
+      factory_bot (~> 4.10.0)
+      railties (>= 3.0.0)
     faker (1.8.7)
       i18n (>= 0.7)
     ffi (1.9.25)
@@ -202,7 +207,7 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
-    sprockets (3.7.1)
+    sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.2.1)
@@ -248,6 +253,7 @@ DEPENDENCIES
   database_cleaner
   devise (~> 4.2)
   dotenv-rails (~> 2.4)
+  factory_bot_rails (~> 4.10)
   faker (~> 1.6, >= 1.6.6)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
@@ -259,6 +265,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  sprockets (~> 3.7.2)
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)

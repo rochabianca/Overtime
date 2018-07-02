@@ -6,6 +6,7 @@
       <div class="navbar__menu">
         <%= link_to "Home", root_path, class: active?(root_path) %>
         <%= link_to "Time Entries", posts_path, class: active?(posts_path) %>
+        <%= link_to "New Entry", new_post_path, id: 'new_post_from_nav', class: active?(new_post_path) %>
       </div>
     </div>
 

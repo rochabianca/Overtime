@@ -20,3 +20,10 @@
     background: $light-purple;
   }
 }
+
+.button__success {
+  background: $green;
+  &:hover {
+    background: $light-green;
+  }
+}

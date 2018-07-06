@@ -1,5 +1,14 @@
-<%= form_for @post do |f| %>
-  <%= f.date_field :date %>
-  <%= f.text_area :rationale %>
-  <%= f.submit 'Save' %>
-<% end %>
+<div class="grid__column grid__column--3 post__form">
+  <%= form_for @post do |f| %>
+    <div class="space__between--bottom">
+      <label class="post__label">Date</label>
+      <%= f.date_field :date %>
+    </div>
+    
+    <div class="space__minor--bottom">
+      <label class="post__label">Rationale</label>
+      <%= f.text_area :rationale %>
+    </div>
+    <%= f.submit 'Save', class: "button button__block button__success" %>
+  <% end %>
+</div>

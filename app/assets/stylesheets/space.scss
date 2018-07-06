@@ -1,0 +1,10 @@
+$between: 10px;
+$minor: 15px;
+
+.space__between--bottom {
+  margin-bottom: $between;
+}
+
+.space__minor--bottom {
+  margin-bottom: $minor;
+}

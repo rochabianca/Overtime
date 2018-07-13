@@ -6,3 +6,30 @@
   margin-top: 15px;
   color: $black;
 }
+
+// gritter notification
+#gritter-notice-wrapper {
+  top: 60px;
+  right: 5px;
+}
+.page__notification {
+  div.gritter-item.gritter-css3 {
+    background: $green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  div.gritter-without-image {
+    padding: 0px;
+
+    span.gritter-title {
+      display: none;
+    }
+
+    p {
+      font-family: $font;
+      text-align: center;
+      color: white;
+    }
+  }
+}

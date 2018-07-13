@@ -15,6 +15,7 @@ gem 'dotenv-rails', '~> 2.4'
 gem 'devise', '~> 4.2'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'sprockets', '~> 3.7.2'
+gem 'gritter', '~> 1.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

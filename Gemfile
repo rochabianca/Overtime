@@ -16,6 +16,8 @@ gem 'devise', '~> 4.2'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'sprockets', '~> 3.7.2'
 gem 'gritter', '~> 1.2'
+gem 'administrate', '~> 0.10.0'
+gem 'bourbon', '~> 5.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

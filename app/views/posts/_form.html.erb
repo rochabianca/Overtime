@@ -1,5 +1,10 @@
 <div class="grid__column grid__column--3 post__form">
   <%= form_for @post do |f| %>
+    <% if @post.errors.any? %>
+      <% @post.errors.full_messages.each do |error| %>
+        <%= js add_gritter(error, title: "", sticky: false) %>
+      <% end %>
+    <% end %>
     <div class="space__between--bottom">
       <label class="post__label">Date</label>
       <%= f.date_field :date %>

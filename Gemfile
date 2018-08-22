@@ -18,6 +18,7 @@ gem 'sprockets', '~> 3.7.2'
 gem 'gritter', '~> 1.2'
 gem 'administrate', '~> 0.10.0'
 gem 'bourbon', '~> 5.1'
+gem 'pundit', '~> 2.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

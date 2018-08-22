@@ -15,16 +15,7 @@
       <%= f.text_area :rationale %>
     </div>
 
-    <div class="space__minor--bottom">
-      <%= f.radio_button :status, 'submitted' %>
-      <%= f.label :status, 'Submitted' %>
-      
-      <%= f.radio_button :status, 'approved'%>
-      <%= f.label :status, 'Approved'%>
-
-      <%= f.radio_button :status, 'rejected'%>
-      <%= f.label :status, 'Rejected'%>
-    </div>
+    <%= render partial: 'status', locals: { f: f } if current_user.try(:type) == 'AdminUser' %>
     <%= f.submit 'Save', class: "button button__block button__success" %>
   <% end %>
 </div>

@@ -12,7 +12,6 @@
   <body>
     <%= render 'shared/navbar'%>
     <%= yield %>
-
-    <%= js add_gritter(flash[:notice], title: "", sticky: false, class_name: 'page__notification', time: 20000000) %>
+    <%= flash_messages %>
   </body>
 </html>

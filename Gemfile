@@ -12,7 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails', '~> 2.4'
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'sprockets', '~> 3.7.2'
 gem 'gritter', '~> 1.2'

@@ -16,7 +16,7 @@ gem 'devise', '~> 4.7'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'sprockets', '~> 3.7.2'
 gem 'gritter', '~> 1.2'
-gem 'administrate', '~> 0.10.0'
+gem 'administrate', '~> 0.13.0'
 gem 'bourbon', '~> 5.1'
 gem 'pundit', '~> 2.0'
 
